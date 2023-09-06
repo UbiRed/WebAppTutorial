@@ -1,0 +1,24 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>youtube #1 trending music video</title>
+</head>
+<body>
+    <h1>#1 trending</h1>
+    <p>This is a basic HTML webpage with an embedded music video.</p>
+
+    <div id="vidContainer">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qwtyEKTGGQ8?si=P7a-E-skZdfQy_JV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <p>Enjoy the doja cat's' new song!</p>
+    <script src="./js/site.js"></script>
+</body>
+</html>
